@@ -24,6 +24,7 @@
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.8.1",
     "html-webpack-plugin": "^5.5.3",
+    "image-minimizer-webpack-plugin": "^3.8.3",
     "node-sass": "^9.0.0",
     "sass": "^1.69.0",
     "sass-loader": "^13.3.2",
