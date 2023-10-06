@@ -285,3 +285,30 @@ a {
     opacity: 1;  
   }
 }
+
+footer {
+  background-color: $primary-color;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+
+/* Responsive */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  #conditions {
+    grid-template-columns: repeat(3, 1fr); 
+  }
+}
+
+@media (max-width: 768px) {
+  #conditions {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 550px) {
+  #conditions {
+    grid-template-columns: repeat(1, 1fr); 
+  }
+}
