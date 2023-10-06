@@ -31,9 +31,6 @@ module.exports = merge(common, {
       new ImageMinimizerPlugin({
         minimizer: {
           implementation: ImageMinimizerPlugin.squooshMinify,
-          options: {
-            // Your options for `squoosh`
-          },
         },
       }),
     ],
