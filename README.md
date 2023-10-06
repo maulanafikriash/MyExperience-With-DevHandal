@@ -8,9 +8,10 @@ Website ini merupakan artikel yang saya buat untuk menceritakan "Pengalaman meng
 - JavaScript
 
 ## Fitur :
+- Aksesibilitas
+- Responsive all device
 - CDN
 - Google Font
-- Responsive all device
 - Font Awesome Icon
 
 Sekian Terimakasih .....
