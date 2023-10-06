@@ -47,3 +47,38 @@ async function fetchData() {
   });
   
   fetchData();
+
+
+// skip konten
+const skipToContentLink = document.querySelector(".skip-link");
+const mainContent = document.getElementById("main-content");
+skipToContentLink.addEventListener("click", (event) => {
+  event.preventDefault();
+  mainContent.tabIndex = -1; 
+  mainContent.focus();
+});
+
+// scroll
+const menuLinks = document.querySelectorAll('.menu ul li a');
+menuLinks.forEach(link => {
+  link.addEventListener('click', function (scrol) {
+    scrol.preventDefault(); 
+
+    const targetId = this.getAttribute('href').slice(1); 
+    const targetElement = document.getElementById(targetId);
+
+    if (targetElement) {
+      const offsetTop = targetElement.offsetTop; 
+      const scrollOptions = {
+        behavior: 'smooth', 
+      }; 
+      window.scrollTo({
+        top: offsetTop,
+        ...scrollOptions,
+      });
+    }
+  });
+});
+
+
+export default main;
