@@ -1,0 +1,40 @@
+{
+    "devhandal": [
+        {
+            "mission": "Lengkapi Data Diri",
+            "passed": "+ 100 Poin",
+            "description": "Lengkapi data dengan informasi yang valid, seperti Nama, Jenis Kelamin, Profesi/Pekerjaan, Instansi/Perusahaan, E-mail, No Whatsapp, Kode Refferal (jika ada).",
+            "picture": "./images/content/profile-new.jpg"
+
+        },
+        {
+            "mission": "Buat Akun Alibaba Cloud",
+            "passed": "+ 100 Poin",
+            "description": "Karena saya adalah seorang Mahasiswa, maka saya membuat akun Alibaba Cloud yang khusus untuk mahasiswa, keuntungannya adalah Free ECS tanpa input CC. Saya membuat akun tersebut dengan mengikuti video tutorial yang ada pada channel YouTube codepolitan.",
+            "picture": "./images/content/alibaba-c.jpg"
+
+        },
+        {
+            "mission": "Tuntaskan ECS Labs dan Dapatkan 'Certified Developer'",
+            "passed": "+ 200 Poin",
+            "description": "Ada 3 tugas yang diberikan pada video tutorial, dan diperbolehkan untuk memilih salah satu tugas ECS Labs. Saya mengerjakan tugas dengan materi 'Create a Cloud based Blog with ECS', dan Alhamdulillah tugas tersebut selesai, kemudian saya berhasil mendapatkan sertifikat dari Alibaba Cloud.",
+            "picture": "./images/content/sertif-new.png"
+
+        },
+        {
+            "mission": "Share Twibbon ke sosial media dengan Referral Link",
+            "passed": "+ 50 Poin/link",
+            "description": "Terdapat 5 Opsi sosial media, yaitu Instagram, TikTok, Facebook, Twitter, dan LinkedIn. Saya share twibbon pada sosial media saya yaitu Instagram, dan LinkedIn. ",
+            "picture": "./images/content/medsos.jpg"
+
+        },
+        {
+            "mission": "Buat Blog Post - Bonus Mission",
+            "passed": "+ 200 Poin",
+            "description": "Publish Artikel dengan tema 'Pengalaman mengikuti program DevHandal dan tersertifikasi Certified Developer dari Alibaba Cloud'. Misi ini merupakan bonus misi agar mendapatkan poin tambahan, dan yang teman-teman baca ini merupakan artikel yang saya buat untuk menyelesaikan misi tersebut.",
+            "picture": "./images/content/artikel.jpg"
+
+        }
+
+    ]
+}
